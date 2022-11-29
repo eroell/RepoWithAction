@@ -20,4 +20,5 @@ jobs:
         with:
           node-version: '14'
       - run: pip install pytest
-      - run: pytest
+      - run: |
+          pytest
